@@ -11,7 +11,7 @@
 
 ## Summary
 
-Module is use to imports the Customer data from Commandline. 
+Module is use to imports the Customer data from Commandline. <br/>
 File Format Accept: CSV or JSON
 
 ## Installation
@@ -35,15 +35,14 @@ File Format Accept: CSV or JSON
 
 ## Specifications
 
- - Console Command
-   
+ - Console Command <br/>
    `php bin/magento customer:import <profile-name> <source>`
 
- - Example Command
-    JSON : `php bin/magento customer:import sample-json sample.json`
+ - Example Command <br/>
+    JSON : `php bin/magento customer:import sample-json sample.json` <br/>
     CSV  : `php bin/magento customer:import sample-csv sample.csv`
 
- - we also need run re-index the 'customer_grid' indexer, once customer import command execution completed, 
+ - we also need run re-index the 'customer_grid' indexer, once customer import command execution completed,  <br/>
     `php bin/magento indexer:reindex customer_grid`
 
 
