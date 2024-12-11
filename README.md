@@ -17,7 +17,7 @@ File Format Accept: CSV or JSON
 ## Installation
 
 ### Composer
- - Run the command on CLI `composer require mdbhojwani/magento2-customerimport`
+ - Run the command on CLI `composer require mdbhojwani/magento2-customer-import`
  - Enable module `php bin/magento module:enable Mdbhojwani_CustomerImport` 
  - Setup Upgrade `php bin/magento setup:upgrade`
  - Compile `php bin/magento setup:di:compile`
